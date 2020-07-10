@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilt Box Hover Effect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="imgBx">
+                <img src="https://i.pinimg.com/originals/39/11/9c/39119cdcbac58bfcf809f53b603802c9.jpg" alt="Nature">
+            </div>
+            <div class="contentBx">
+                <h2>Tilt box hover effect</h2>
+                <p>The basic description about the tilt box hover effect. The basic description about the tilt box hover effect. The basic description about the tilt box hover effect. </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="https://i.pinimg.com/originals/39/11/9c/39119cdcbac58bfcf809f53b603802c9.jpg" alt="Nature">
+            </div>
+            <div class="contentBx">
+                <h2>Tilt box hover effect</h2>
+                <p>The basic description about the tilt box hover effect. The basic description about the tilt box hover effect. The basic description about the tilt box hover effect. </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+        
+    </script>
+</body>
+</html>
